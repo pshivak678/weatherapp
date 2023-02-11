@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+    <header>
+        <div class="search">
+        <input type="search">
+        </div>
+    </header>
+    <div class="sidepanel">
+        <div class="leftpanel">
+            <div class="top-left"><span>Hyderabad</span></div>
+            <div class="bottom-left" id = "current-temp">25</div>
+            <div class="details"><ol></ol>
+            <ol>Feels Like:<div id="feelslike"></div></ol>
+            <ol>Wind Speed:<div id="windspeed"></div></ol>
+            <ol>Pressure:<div id="pressure"></div></ol>
+            <ol>Humidity:<div id="humidity"></div></ol>
+            </div>
+        </div>
+        <div class="rightpanel">
+            <div class="right">
+                <div>Thursday</div>
+                <div><span>27</span>&deg;</div>
+            </div>
+            <div class="right">
+                <div>Friday</div>
+                <div><span>28</span>&deg;</div>
+            </div>
+            <div class="right">
+                <div>Saturday</div>
+                <div><span>29</span>&deg;</div>
+            </div>
+            <div class="right">
+                <div>Sunday</div>
+                <div><span>30</span>&deg;</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

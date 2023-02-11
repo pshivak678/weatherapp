@@ -1,0 +1,59 @@
+html { 
+    background: url('https://media.istockphoto.com/id/1343587762/vector/winter-landscape-background-vector-illustration-of-snowy-mountains-in-cartoon-flat-style.jpg?s=612x612&w=0&k=20&c=9nJrWa_ovO53c4mYGT4PkkHgrccUfkQ8DeJr1Xuywyc=') 
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.main{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+}
+
+.search{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+    
+}
+
+.sidepanel{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.leftpanel{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-left{
+    font-size: 100px;
+}
+
+.details{
+    font-size: large;
+}
+
+.rightpanel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:60px;
+    font-size: x-large;
+    align-items: center;
+}
+
+.right{
+    display: grid;
+    gap:20px;
+}
